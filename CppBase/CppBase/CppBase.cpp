@@ -3,26 +3,22 @@
 
 #include <iostream>
 #include "byreference.h"
+#include "car.h"
 using namespace std;
 
 void PointerVersusReference();
 
-
-class Car {
-public:
-    string brand;
-    string model;
-    int year;
-};
+int ptrVsReference_IncValue = 10;
 
 int main()
 {
-    Car myCar;
+    car myCar;
 
     myCar.brand = "Mercedez";
 
 
     cout << "MyCar:" << myCar.brand << endl;
+    myCar.Turn();
     
     PointerVersusReference();
 }
