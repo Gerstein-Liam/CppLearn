@@ -6,7 +6,6 @@ class car
 
 public :
 	string brand;
-
 	void Turn();
 };
 

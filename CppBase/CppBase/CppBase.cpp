@@ -1,6 +1,9 @@
 // CppBase.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
 
+
+#define PASSAGE_PAR_ADRESSE
+
 #include <iostream>
 #include "byreference.h"
 #include "car.h"
@@ -9,6 +12,9 @@ using namespace std;
 void PointerVersusReference();
 
 int ptrVsReference_IncValue = 10;
+
+//Use only function B in BigLibrary
+extern void BigLibraryFctB();
 
 int main()
 {
@@ -19,17 +25,23 @@ int main()
 
     cout << "MyCar:" << myCar.brand << endl;
     myCar.Turn();
-    
+
+    BigLibraryFctB();
+
+
+#ifdef  PASSAGE_PAR_ADRESSE
     PointerVersusReference();
+#endif //  PASSAGE_PAR_ADRESSE
 }
 
+
+#ifdef  PASSAGE_PAR_ADRESSE
 void PointerVersusReference() {
 
     func funcptr_refbyptr = arg_by_pointer;
     void (*funcptr_byref) (int&);
 
     funcptr_byref = arg_by_reference;
-
     int x = 2;
     arg_by_pointer(&x);
     arg_by_pointer(&x);
@@ -40,6 +52,9 @@ void PointerVersusReference() {
     cout << "X:" << x << endl;
 
 }
+#endif //  PASSAGE_PAR_ADRESSE
+
+
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
 // Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage

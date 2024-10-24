@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aBigLibrary.cpp" />
     <ClCompile Include="byreference.cpp" />
     <ClCompile Include="car.cpp" />
     <ClCompile Include="CppBase.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="aBigLibrary.h" />
     <ClInclude Include="byreference.h" />
     <ClInclude Include="car.h" />
   </ItemGroup>
