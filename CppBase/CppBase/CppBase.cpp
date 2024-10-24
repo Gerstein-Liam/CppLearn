@@ -5,21 +5,29 @@
 #include "byreference.h"
 using namespace std;
 
+void PointerVersusReference();
+
 int main()
 {
-        func funcptr_refbyptr = arg_by_pointer;
-        void (*funcptr_byref) (int&);
+    PointerVersusReference();
+}
 
-        funcptr_byref = arg_by_reference;
+void PointerVersusReference() {
 
-        int x = 2;
-        arg_by_pointer(&x);
-        arg_by_pointer(&x);
-        arg_by_reference(x);
-        funcptr_refbyptr(&x);
-        funcptr_byref(x);
+    func funcptr_refbyptr = arg_by_pointer;
+    void (*funcptr_byref) (int&);
 
-        cout << "X:" << x << endl;
+    funcptr_byref = arg_by_reference;
+
+    int x = 2;
+    arg_by_pointer(&x);
+    arg_by_pointer(&x);
+    arg_by_reference(x);
+    funcptr_refbyptr(&x);
+    funcptr_byref(x);
+
+    cout << "X:" << x << endl;
+
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

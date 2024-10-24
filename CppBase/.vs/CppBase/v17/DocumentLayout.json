@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\liamg\\source\\repos\\CppBase\\",
+  "WorkspaceRootPath": "C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\CppBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\CppBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|solutionrelative:CppBase\\CppBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\byreference.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\byreference.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|solutionrelative:CppBase\\byreference.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\byreference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\byreference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CBAAAC9-E428-4F52-A05E-E140531C7CE4}|CppBase\\CppBase.vcxproj|solutionrelative:CppBase\\byreference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -36,37 +36,35 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "byreference.cpp",
-              "DocumentMoniker": "C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\byreference.cpp",
+              "DocumentMoniker": "C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\byreference.cpp",
               "RelativeDocumentMoniker": "CppBase\\byreference.cpp",
-              "ToolTip": "C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\byreference.cpp",
+              "ToolTip": "C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\byreference.cpp",
               "RelativeToolTip": "CppBase\\byreference.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-24T10:48:40.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T10:48:40.772Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "byreference.h",
-              "DocumentMoniker": "C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\byreference.h",
+              "DocumentMoniker": "C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\byreference.h",
               "RelativeDocumentMoniker": "CppBase\\byreference.h",
-              "ToolTip": "C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\byreference.h",
+              "ToolTip": "C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\byreference.h",
               "RelativeToolTip": "CppBase\\byreference.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-24T10:46:57.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T10:46:57.184Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CppBase.cpp",
-              "DocumentMoniker": "C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\CppBase.cpp",
+              "DocumentMoniker": "C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\CppBase.cpp",
               "RelativeDocumentMoniker": "CppBase\\CppBase.cpp",
-              "ToolTip": "C:\\Users\\liamg\\source\\repos\\CppBase\\CppBase\\CppBase.cpp",
+              "ToolTip": "C:\\Users\\liamg\\Desktop\\CPP_LEARN\\CppBase\\CppBase\\CppBase.cpp",
               "RelativeToolTip": "CppBase\\CppBase.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-24T09:09:41.171Z",
               "EditorCaption": ""
