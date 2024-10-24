@@ -7,8 +7,23 @@ using namespace std;
 
 void PointerVersusReference();
 
+
+class Car {
+public:
+    string brand;
+    string model;
+    int year;
+};
+
 int main()
 {
+    Car myCar;
+
+    myCar.brand = "Mercedez";
+
+
+    cout << "MyCar:" << myCar.brand << endl;
+    
     PointerVersusReference();
 }
 
